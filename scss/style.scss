@@ -1,0 +1,39 @@
+@import "_nullstyle";
+@import "_fonts";
+
+body {
+	font-family: "Roboto";
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+section {
+	padding-bottom: 80px;
+}
+.section__header {
+	font-family: "UniSansHeavyCaps";
+	color: #515152;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	@media (max-width: 530px) {
+		font-size: 22px;
+	}
+}
+
+@import "_header";
+@import "_promo";
+@import "_about";
+@import "_features";
+@import "_services";
+@import "_partners";
+@import "_order";
+@import "_footer";
+
+//***======================================================================
+// Адаптив
+@import "_media";

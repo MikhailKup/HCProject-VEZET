@@ -1,0 +1,30 @@
+.partners {
+	&__wrapper {
+		padding-top: 40px;
+		display: grid;
+		justify-content: center;
+		grid-template-columns: repeat(3, 250px);
+		gap: 60px;
+	}
+	&__item {
+		display: block;
+		padding: 10px 25px;
+		text-align: center;
+		transition: 0.6s ease;
+		&:hover {
+			background-color: #306782;
+			color: #fff;
+			border-radius: 30px;
+		}
+	}
+}
+.item-partners {
+	font-size: 18px;
+	color: #306782;
+	&__image {
+		border: 3px solid #306782;
+		border-radius: 20%;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+}

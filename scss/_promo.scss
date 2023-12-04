@@ -1,0 +1,69 @@
+.promo {
+	width: 100%;
+	&__slider {
+		max-width: 100%;
+		max-height: 500px;
+		overflow: hidden;
+	}
+}
+
+.slider-promo {
+	&__item {
+		position: relative;
+	}
+	&__image {
+		height: 500px;
+		&_1 {
+			background: url(../img/main_slider/slide_5.jpg);
+			background-size: cover;
+			background-position: 40% 60%;
+		}
+		&_2 {
+			background: url(../img/main_slider/slide_2.jpg);
+			background-size: cover;
+			background-position: 40% 60%;
+		}
+		&_3 {
+			background: url(../img/main_slider/slide_3.jpg);
+			background-size: cover;
+			background-position: 40% 60%;
+		}
+		&_4 {
+			background: url(../img/main_slider/slide_4.jpg);
+			background-size: cover;
+			background-position: 40% 60%;
+		}
+	}
+	&__text {
+		background-color: #fff;
+		border: 3px solid #306782;
+		border-radius: 10px;
+		padding: 15px;
+		position: absolute;
+		bottom: 6%;
+		left: 10%;
+		font-size: 18px;
+		line-height: 25px;
+		text-transform: uppercase;
+		color: #306782;
+	}
+}
+
+.slider-promo-prev,
+.slider-promo-next {
+	z-index: 9;
+	border: none;
+	position: absolute;
+	top: 50%;
+	background: none;
+	img {
+		width: 32px;
+		height: 40px;
+	}
+}
+.slider-promo-prev {
+	left: 10px;
+}
+.slider-promo-next {
+	right: 10px;
+}

@@ -1,0 +1,23 @@
+.features {
+	&__slider {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+.slider-features {
+	padding-top: 50px;
+	&__item {
+		padding: 0 25px;
+		flex: 0 1 16.66%;
+		text-align: center;
+	}
+	&__image {
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	&__text {
+		font-size: 15px;
+		color: #515152;
+	}
+}
